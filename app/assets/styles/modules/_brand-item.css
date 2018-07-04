@@ -1,0 +1,23 @@
+.brand-item {
+  text-align: center;
+
+  & > img {
+    display: inline;
+    width: 130px;
+    padding: 10px 10px;
+
+    @mixin atSmall {
+      width: 115px;
+    }
+
+    @mixin atMedium {
+      width: 170px;
+      display: inline-block;
+      padding: 0 20px;
+    }
+
+    @mixin atLarge {
+      width: auto;
+    }
+  }
+}

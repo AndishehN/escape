@@ -1,0 +1,31 @@
+.page-section {
+  padding: 2.5rem 0;
+
+  @mixin atMedium {
+    padding: 4.5rem 0;
+  }
+
+  &--less-padding-bottom {
+    padding-bottom: 2rem;
+  }
+
+  &--narrow {
+    padding: 1.5rem 0;
+
+    @mixin atMedium {
+      padding: 3.75rem 0;
+    }
+  } 
+
+  &--gray {
+    background-color: $mainGray;
+  }
+
+  &--dark-gray {
+    background-color: #111111;
+  }
+
+  &--blue {
+    background-color: $mainBlue;
+  }
+}

@@ -1,0 +1,53 @@
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: $darkGray;
+  text-align: center;
+  
+  @mixin atMedium {
+    font-size: 2.75rem;
+    text-align: left;
+  }
+
+  @mixin atLarge {
+    font-size: 3.75rem;
+  }
+
+  strong {
+    font-weight: 500;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &--white {
+    color: #fff;
+  }
+
+  &--less-margin {
+    margin-top: 0;
+    margin-bottom: 1.1875rem;
+
+    @mixin atMedium {
+      margin-bottom: 2.1875rem;
+    }
+  }
+
+  &--less-margin-bottom {
+    margin-bottom: .625rem;
+  }
+
+  &__subtitle {
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 35px;
+
+    @mixin atMedium {
+      font-size: 1.3rem;
+      margin-bottom: 77px;
+    }
+  }
+}

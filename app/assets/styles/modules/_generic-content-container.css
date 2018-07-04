@@ -1,0 +1,48 @@
+.generic-content-container {
+  
+  p {
+    font-weight: 300;
+    line-height: 1.65;
+    margin: 0 0 1rem 0;
+
+    @mixin atLarge {
+      margin: 0 0 1.8rem 0;
+    }
+  }
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &--less-margin-bottom {
+    p {
+      margin-bottom: .7rem;
+    }
+  }
+
+  &--add-b-margin {
+    p:last-of-type {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &--blue {
+    color: $mainBlue;
+    font-size: .8rem;
+  }
+
+  &--white {
+    color: #fff;
+  }
+
+  &--center {
+    text-align: left;
+    margin: 10px auto 0 auto;
+
+    @mixin atMedium {
+      text-align: center;
+      width: 595px;
+      margin: 45px auto 0 auto;
+    }
+  }
+}

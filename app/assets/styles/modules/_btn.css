@@ -1,0 +1,12 @@
+.btn {
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: .9rem 1.1rem;
+  text-decoration: none;
+
+  @mixin atMedium {
+    font-size: 1.25rem;
+    padding: 1.15rem 3.75rem;
+  }
+}

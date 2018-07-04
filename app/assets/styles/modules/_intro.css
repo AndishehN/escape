@@ -1,0 +1,18 @@
+.intro {
+  position: relative;
+
+  &__image {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  @mixin atMedium {
+    &__image {
+      position: relative;
+      top: 50%;
+      transform: translateY(25%);
+      padding-bottom: 0;
+    }
+  }
+  
+}
