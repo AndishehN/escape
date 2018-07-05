@@ -527,6 +527,21 @@ img {
   }
 }
 
+.page-section--inner {
+  padding: 2.5rem 0;
+}
+
+@media (min-width: 800px) {
+
+  .page-section--inner {
+    padding: 4.5rem 0;
+  }
+}
+
+.page-section--no-padding {
+  padding: 0;
+}
+
 .page-section--less-padding-bottom {
   padding-bottom: 2rem;
 }
@@ -1081,6 +1096,19 @@ img {
   background-color: rgba(34,34,34, .85);
 }
 
+@media (min-width: 800px) {
+
+  .site-header {
+    position: fixed;
+    transition: all .3s ease-out;
+  }
+
+  .site-header--dark {
+    background-color: rgba(34,34,34, .85);
+    padding: 20px 0;
+  }
+}
+
 .site-header__logo {
   position: absolute;
   left: 50%;
@@ -1224,6 +1252,13 @@ img {
   font-weight: 300;
   text-decoration: none;
   padding: 15px 0;
+}
+
+@media (min-width: 800px) {
+
+  .primary-nav a.is-current-link {
+    color: #fabb69;
+  }
 }
 
 .reveal-item {

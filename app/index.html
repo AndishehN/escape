@@ -13,7 +13,7 @@
   <header class="site-header">
     <div class="wrapper wrapper--medium">
       <div class="site-header__logo">
-        <!--<img src="assets/images/icons/paper-plane.svg">-->
+        <img src="assets/images/icons/logo1.svg">
         <a href="#">ESCAPE</a>
       </div>
 
@@ -24,18 +24,18 @@
       <div class="site-header__menu-content">
         <nav class="primary-nav primary-nav--pull-right">
           <ul>
-            <li><a href="#our-beginning">Home</a></li>
-            <li><a href="#features">Services</a></li>
-            <li><a href="#testimonials">Clients</a></li>
-            <li><a href="#testimonials">Team</a></li>
-            <li><a href="#testimonials">Contact</a></li>
+            <li><a href="#home" id="home-link">Home</a></li>
+            <li><a href="#features" id="features-link">Services</a></li>
+            <li><a href="#clients" id="clients-link">Clients</a></li>
+            <li><a href="#our-team" id="our-team-link">Team</a></li>
+            <li><a href="#contact" id="contact-link">Contact</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
 
-  <div class="large-hero">
+  <div id="home" class="large-hero page-section page-section--no-padding" data-matching-link="#home-link">
     <picture>
       <source srcset="assets/images/hero--large.jpg" media="(min-width: 1400px)">
       <source srcset="assets/images/hero--medium.jpg" media="(min-width: 990px)">
@@ -50,8 +50,8 @@
     </div>
   </div>
 
-  <div id="our-beginning intro">
-    <div class="page-section">
+  <div id="services" class="intro page-section page-section--no-padding" data-matching-link="#services-link">
+    <div class="page-section--inner">
       <div class="wrapper wrapper--medium">
         <div class="row row--gutters generic-content-container">
           <div class="row__medium-4 row__medium--pull-right">
@@ -75,7 +75,7 @@
         </div>
       </div>
     </div>
-    <div class="page-section page-section--gray">
+    <div class="page-section--inner page-section--gray">
       <div class="wrapper wrapper--medium">
         <div class="row row--gutters generic-content-container">
           <div class="row__medium-4">
@@ -96,7 +96,7 @@
     </div>
   </div>
 
-  <div id="features" class="page-section page-section--less-padding-bottom">
+  <div id="features" class="page-section page-section--less-padding-bottom" data-matching-link="#features-link">
     <div class="wrapper wrapper--medium">
       <div class="row row--gutters generic-content-container">
         <div class="row__medium-6">
@@ -167,7 +167,7 @@
     </div>
   </div>
 
-  <div id="testimonials" class="page-section page-section--gray generic-content-container generic-content-container--less-margin-bottom">
+  <div id="clients" class="page-section page-section--gray generic-content-container generic-content-container--less-margin-bottom" data-matching-link="#clients-link">
     <div class="wrapper wrapper--large">
       <h2 class="section-title section-title--center section-title--less-margin section-title--less-margin-bottom">Awesome <strong>Clients</strong></h2>
       <h3 class="section-title__subtitle">See what nice things our Clients sade about us.</h3>
@@ -225,7 +225,7 @@
     </div>
   </div>
 
-  <div id="teams" class="page-section page-section--dark-gray generic-content-container">
+  <div id="our-team" class="page-section page-section--dark-gray generic-content-container" data-matching-link="#our-team-link">
     <div class="wrapper wrapper--medium">
       <h2 class="section-title section-title--center section-title--white section-title--less-margin section-title--less-margin-bottom">Amazing <strong>Team</strong></h2>
       <h3 class="section-title__subtitle">These wonderful people make work enjoyable.</h3>
@@ -237,9 +237,9 @@
             </div>
             <h3 class="team__title">Kimberly Thompson</h3>
             <h4 class="team__subtitle">Marketer</h4>
-            <!--<img src="assets/images/twitter-icon.png">
-            <img class="team__icon" src="assets/images/facebook-icon.png">
-            <img src="assets/images/Pinterest.png">-->
+            <a href="#"><img class="team__icon" src="assets/images/icons/twitter.svg"></a>
+            <a href="#"><img class="team__icon" src="assets/images/icons/facebook.svg"></a>
+            <a href="#"><img class="team__icon" src="assets/images/icons/Pinterest.svg"></a>
           </div>
         </div>
         <div class="row__small-4">
@@ -249,9 +249,9 @@
             </div>
             <h3 class="team__title">Rico Massimo</h3>
             <h4 class="team__subtitle">Coder</h4>
-            <!--<img src="assets/images/icons/Twitter.svg">
-            <img src="assets/images/icons/Facebook.svg">
-            <img src="assets/images/icons/Google+.svg">-->
+            <a href="#"><img class="team__icon" src="assets/images/icons/Twitter.svg"></a>
+            <a href="#"><img class="team__icon" src="assets/images/icons/Facebook.svg"></a>
+            <a href="#"><img class="team__icon" src="assets/images/icons/google.svg"></a>
           </div>
         </div>
         <div class="row__small-4">
@@ -261,8 +261,8 @@
             </div>
             <h3 class="team__title">Kimberly Thompson</h3>
             <h4 class="team__subtitle">Marketer</h4>
-            <!--<img src="assets/images/icons/Facebook.svg">
-            <img src="assets/images/icons/Pinterest.svg">-->
+            <a href="#"><img class="team__icon" src="assets/images/icons/Facebook.svg"></a>
+            <a href="#"><img class="team__icon" src="assets/images/icons/Pinterest.svg"></a>
           </div>
         </div>
       </div>
@@ -273,9 +273,9 @@
     </div>
   </div>
 
-  <footer class="site-footer page-section--blue generic-content-container generic-content-container--white generic-content-container--add-b-margin">
+  <footer id="contact" class="page-section site-footer page-section--no-padding page-section--blue generic-content-container generic-content-container--white generic-content-container--add-b-margin" data-matching-link="#contact-link">
     <div class="wrapper wrapper--large">
-      <div class="page-section">
+      <div class="page-section--inner">
         <div class="row row--gutters row--b-padding">
           <div class="row__medium-6">
             <h2 class="section-title section-title--white section-title--less-margin section-title--less-margin-bottom">Say <strong>Hello</strong></h2>
@@ -284,30 +284,42 @@
               <div class="row row--gutters row--gutters-small">
                 <div class="row__small-6">
                   <p>
-                    <!--<img src="assets/images/icons/Mail-Icon.svg">-->            
-                    <a href="#">(416)555-0000</a>
+                    <a href="#">
+                      <img class="team__icon" src="assets/images/icons/mobile.svg">          
+                      (416)555-0000
+                    </a>
                   </p>
                   <p>
-                    <!--<img src="assets/images/icons/Facebook.svg">-->            
-                    <a href="#">@escape</a>
+                    <a href="#">
+                      <img class="team__icon" src="assets/images/icons/twitter.svg">                                 
+                      @escape
+                    </a>
                   </p>
                   <p>
-                    <!--<img src="assets/images/icons/Pinterest.svg">-->            
-                    <a href="#">plus.com/escape</a>
+                    <a href="#">
+                      <img class="team__icon" src="assets/images/icons/google.svg">          
+                      plus.com/escape
+                    </a>
                   </p>
                 </div>
                 <div class="row__small-6">
                   <p>
-                    <!--<img src="assets/images/icons/Mail-Icon.svg">-->            
-                    <a href="#">hello@escape.com</a>
+                    <a href="#">
+                      <img class="team__icon" src="assets/images/icons/email.svg">                                  
+                      hello@escape.com
+                    </a>
                   </p>
                   <p>
-                    <!--<img src="assets/images/icons/Facebook.svg">-->            
-                    <a href="#">facebook.com/escape</a>
+                    <a href="#">
+                      <img class="team__icon" src="assets/images/icons/Facebook.svg">                                 
+                      facebook.com/escape
+                    </a>
                   </p>
                   <p>
-                    <!--<img src="assets/images/icons/Pinterest.svg">-->            
-                    <a href="#">pinterest.com/escape</a>
+                    <a href="#">
+                      <img class="team__icon" src="assets/images/icons/Pinterest.svg">                                 
+                      pinterest.com/escape
+                    </a>
                   </p>
                 </div>
               </div>

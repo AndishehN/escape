@@ -9,6 +9,15 @@
     background-color: rgba($darkGray, .85);
   }
 
+  @mixin atMedium {
+    position: fixed;
+    transition: all .3s ease-out;
+    &--dark {
+      background-color: rgba($darkGray, .85);
+      padding: 20px 0;
+    }
+  }
+
   &__logo {
     position: absolute;
     left: 50%;
