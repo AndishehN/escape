@@ -1,12 +1,19 @@
 .btn {
-  color: white;
-  border: 1px solid white;
+  color: #fff;
+  border: 1px solid #fff;
   border-radius: 4px;
   padding: .9rem 1.1rem;
   text-decoration: none;
+  background-color: rgba(0, 0, 0, .3);
+  transition: all .5s ease-out;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, .7);
+    border-color: transparent;
+  }
 
   @mixin atMedium {
-    font-size: 1.25rem;
-    padding: 1.15rem 3.75rem;
+    font-size: 1.35rem;
+    padding: 1.15rem 3rem;
   }
 }

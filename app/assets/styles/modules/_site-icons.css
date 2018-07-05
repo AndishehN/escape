@@ -1,0 +1,35 @@
+.site-icons {
+  width: 20px;
+  height: 20px;
+  margin-right:5px;
+
+  &__team {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin-right: 5px;
+    transition: background-color .7s ease-out;
+  }
+
+  &__team--twitter:hover {
+    background-color: #00aced;
+    border-color: #00aced;
+  }
+
+  &__team--facebook:hover {
+    background-color: #3b5998;
+    border-color: #3b5998;
+  }
+
+  &__team--pinterest:hover {
+    background-color: #cb2028;
+    border-color: #cb2028;
+  }
+
+  &__team--google:hover {
+    background-color: #d95232;
+    border-color: #d95232;
+  }
+}
