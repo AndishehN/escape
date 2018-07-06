@@ -793,7 +793,7 @@ img {
   }
 }
 
-.feature-item__icon {
+.feature-item__icon--background {
   position: absolute;
   top: -15px;
   left: 0;
@@ -804,21 +804,21 @@ img {
   overflow: hidden;
 }
 
-.feature-item__icon .icon {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 @media (min-width: 530px) {
 
-  .feature-item__icon {
+  .feature-item__icon--background {
     top: 0;
     left: 0;
     width: 70px;
     height: 70px;
   }
+}
+
+.feature-item__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .feature-item__title {
@@ -1329,3 +1329,100 @@ img {
   opacity: 1;
   transform: translateX(0);
 }
+
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
+Instead edit gulp/templates/sprite */
+
+.icon {
+      background-image: url('/assets/images/sprites/sprite-36939331.svg');
+    }
+
+.icon--Browser-Icon {
+    width: 37.531px;
+    height: 32.84px;
+    background-position: 85.95439745500241% 66.29266484719835%;
+  }
+
+.icon--Camera {
+    width: 32.437px;
+    height: 28.38px;
+    background-position: 95.2404388775196% 63.6368976687199%;
+  }
+
+.icon--Flow-Tree-Icon {
+    width: 221px;
+    height: 222px;
+    background-position: 97.9467680608365% 51.30260521042084%;
+  }
+
+.icon--Person-Icon {
+    width: 20.781px;
+    height: 44.57px;
+    background-position: 99.58956428080693% 43.558527517589305%;
+  }
+
+.icon--Star-Icon {
+    width: 37.469px;
+    height: 37.5px;
+    background-position: 85.95084119047254% 69.33107822410147%;
+  }
+
+.icon--Twitter {
+    width: 512px;
+    height: 512px;
+    background-position: 31.25% 72.31638418079096%;
+  }
+
+.icon--Users-Icon {
+    width: 270.625px;
+    height: 195.69px;
+    background-position: 0 99.96973572453652%;
+  }
+
+.icon--Video-Icon {
+    width: 37.844px;
+    height: 24.31px;
+    background-position: 95.58417147479969% 61.38714884292751%;
+  }
+
+.icon--email {
+    width: 512px;
+    height: 512px;
+    background-position: 100% 0;
+  }
+
+.icon--facebook {
+    width: 264px;
+    height: 512px;
+    background-position: 80.50314465408805% 72.31638418079096%;
+  }
+
+.icon--google {
+    width: 640px;
+    height: 512px;
+    background-position: 0 0;
+  }
+
+.icon--iPad-Icon {
+    width: 35.156px;
+    height: 35.13px;
+    background-position: 88.31490814501706% 69.19240085410215%;
+  }
+
+.icon--logo {
+    width: 144px;
+    height: 53px;
+    background-position: 92.52873563218391% 62.89631533847472%;
+  }
+
+.icon--mobile {
+    width: 320px;
+    height: 512px;
+    background-position: 0 72.31638418079096%;
+  }
+
+.icon--pinterest {
+    width: 384px;
+    height: 512px;
+    background-position: 55.55555555555556% 0;
+  }
