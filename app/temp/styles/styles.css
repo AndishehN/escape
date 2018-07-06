@@ -768,8 +768,7 @@ img {
 
   .intro__image {
     position: relative;
-    top: 50%;
-    transform: translateY(25%);
+    top: 50px;
     padding-bottom: 0;
   }
 }
@@ -1318,4 +1317,15 @@ img {
 .site-icons__team--google:hover {
   background-color: #d95232;
   border-color: #d95232;
+}
+
+.slide-in-item {
+    opacity: 0;
+    transition: all 1.5s ease-out;
+    transform: translateX(300px);
+  }
+
+.slide-in-item--is-visible {
+  opacity: 1;
+  transform: translateX(0);
 }

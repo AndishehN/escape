@@ -62,12 +62,18 @@
 
 	var _StickyHeader2 = _interopRequireDefault(_StickyHeader);
 
+	var _SlideInOnScroll = __webpack_require__(7);
+
+	var _SlideInOnScroll2 = _interopRequireDefault(_SlideInOnScroll);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var mobileMenu = new _MobileMenu2.default();
 	new _RevealOnScroll2.default((0, _jquery2.default)(".feature-item"), "85%");
 	new _RevealOnScroll2.default((0, _jquery2.default)(".team"), "60%");
 	var stickyHeader = new _StickyHeader2.default();
+	new _SlideInOnScroll2.default((0, _jquery2.default)(".testimonial"), "80%");
+	new _SlideInOnScroll2.default((0, _jquery2.default)(".intro__image"), "80%");
 
 /***/ }),
 /* 1 */
@@ -11224,6 +11230,67 @@
 	}));
 
 
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _jquery = __webpack_require__(2);
+
+	var _jquery2 = _interopRequireDefault(_jquery);
+
+	var _noframework = __webpack_require__(4);
+
+	var _noframework2 = _interopRequireDefault(_noframework);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	var SlideInOnScroll = function () {
+	  function SlideInOnScroll(els, offset) {
+	    _classCallCheck(this, SlideInOnScroll);
+
+	    this.itemsToSlideIn = els;
+	    this.offsetPercentage = offset;
+	    this.hideInitialy();
+	    this.createWaypoints();
+	  }
+
+	  _createClass(SlideInOnScroll, [{
+	    key: 'hideInitialy',
+	    value: function hideInitialy() {
+	      this.itemsToSlideIn.addClass("slide-in-item");
+	    }
+	  }, {
+	    key: 'createWaypoints',
+	    value: function createWaypoints() {
+	      var that = this;
+	      this.itemsToSlideIn.each(function () {
+	        var currentItem = this;
+	        new Waypoint({
+	          element: currentItem,
+	          handler: function handler() {
+	            (0, _jquery2.default)(currentItem).addClass("slide-in-item--is-visible");
+	          },
+	          offset: that.offsetPercentage
+	        });
+	      });
+	    }
+	  }]);
+
+	  return SlideInOnScroll;
+	}();
+
+	exports.default = SlideInOnScroll;
 
 /***/ })
 /******/ ]);
