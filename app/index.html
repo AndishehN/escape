@@ -8,6 +8,8 @@
   <meta name="keywords" content="Travel planning, travel bundles, travel escapes, affordable travel">
   <meta name="description" content="Your clarify. One trip away. We create soul restoring journeys that inspire you to be you.">
   <link rel="stylesheet" href="temp/styles/styles.css">
+  <script src="/temp/scripts/Vendor.js"></script>
+
 </head>
 <body>
   <header class="site-header">
@@ -58,8 +60,8 @@
           <div class="row__medium-4 row__medium--pull-right">
             <div class="intro__image">
               <picture>
-                <source srcset="assets/images/Flow-Tree-Icon.png" media="(min-width: 640px)"> 
-                <img src="assets/images/Flow-Tree-Icon--smaller.png">
+                <source data-srcset="assets/images/Flow-Tree-Icon.png" media="(min-width: 640px)"> 
+                <img class="lazyload" data-src="assets/images/Flow-Tree-Icon--smaller.png">
               </picture>
             </div>
           </div>
@@ -82,8 +84,8 @@
           <div class="row__medium-4">
             <div class="intro__image">
               <picture>
-                <source srcset="assets/images/Users-Icon.png" media="(min-width:640px)">
-                <img src="assets/images/Users-Icon--smaller.png">
+                <source data-srcset="assets/images/Users-Icon.png" media="(min-width:640px)">
+                <img class="lazyload" data-src="assets/images/Users-Icon--smaller.png">
               </picture>
             </div>
           </div>
@@ -176,7 +178,7 @@
         <div class="row">
           <div class="testimonial__item">
             <div class="row__medium-4">
-              <img class="testimonial__photo" src="assets/images/testimonial-jane.jpg">
+              <img class="testimonial__photo lazyload" sizes="160px" data-srcset="assets/images/testimonial-jane.jpg 160w, assets/images/testimonial-jane-hi-dpi.jpg 320w">
             </div>
             <div class="row__medium-8">
               <div class="testimonial__description">
@@ -196,7 +198,7 @@
         <div class="row">
           <div class="testimonial__item">
             <div class="row__medium-4 row__medium--pull-right">
-              <img class="testimonial__photo" src="assets/images/testimonial-john.jpg">
+              <img class="testimonial__photo lazyload" sizes="160px" data-srcset="assets/images/testimonial-john.jpg 160w, assets/images/testimonial-john-hi-dpi.jpg 320w">
             </div>
             <div class="row__medium-8">
               <div class="testimonial__description">
@@ -234,7 +236,7 @@
         <div class="row__small-4">
           <div class="team">
             <div class="team__photo">
-              <img src="assets/images/team-jane.jpg">
+              <img class="lazyload" sizes="220px" data-srcset="assets/images/team-jane.jpg 220w, assets/images/team-jane-hi-dpi.jpg 440w" alt="Kimberly Thompson">
             </div>
             <h3 class="team__title">Kimberly Thompson</h3>
             <h4 class="team__subtitle">Marketer</h4>
@@ -246,7 +248,7 @@
         <div class="row__small-4">
           <div class="team">
             <div class="team__photo">
-              <img src="assets/images/team-john.jpg">
+              <img class="lazyload" sizes="220px" data-srcset="assets/images/team-john.jpg 220w, assets/images/team-john-hi-dpi.jpg 440w" alt="Rico Massimo">
             </div>
             <h3 class="team__title">Rico Massimo</h3>
             <h4 class="team__subtitle">Coder</h4>
@@ -258,7 +260,7 @@
         <div class="row__small-4">
           <div class="team">
             <div class="team__photo">
-              <img src="assets/images/team-cat.jpg">
+              <img class="lazyload" sizes="220px" data-srcset="assets/images/team-cat.jpg 220w, assets/images/team-cat-hi-dpi.jpg 440w" alt="Uku Mason">
             </div>
             <h3 class="team__title">Uku Mason</h3>
             <h4 class="team__subtitle">Graphic Designer</h4>
