@@ -2,99 +2,45 @@
 Instead edit gulp/templates/sprite */
 
     .icon {
-      background-image: url('../../assets/images/sprites/sprite-74e3800c.svg');
+      background-image: url('../../assets/images/sprites/sprite-7d9f7c2c.svg');
     }
 
     .no-svg .icon {
-      background-image: url('../../assets/images/sprites/sprite-74e3800c.png');
+      background-image: url('../../assets/images/sprites/sprite-7d9f7c2c.png');
     }
 
   .icon--Browser-Icon {
     width: 39.53px;
     height: 34.84px;
-    background-position: 86.12484775070384% 66.57376003223747%;
+    background-position: 64.2454088437468% 0;
   }
 
   .icon--Camera {
     width: 34.44px;
     height: 30.38px;
-    background-position: 88.45618084852345% 66.32542112042289%;
-  }
-
-  .icon--Flow-Tree-Icon {
-    width: 223px;
-    height: 224px;
-    background-position: 98.1046247156937% 51.29740518962076%;
+    background-position: 99.60023400936038% 0;
   }
 
   .icon--Person-Icon {
     width: 22.78px;
     height: 46.57px;
-    background-position: 99.85387238188018% 43.580373570283946%;
+    background-position: 0 0;
   }
 
   .icon--Star-Icon {
     width: 39.47px;
     height: 39.5px;
-    background-position: 86.12140855756624% 69.77159713442899%;
-  }
-
-  .icon--Twitter {
-    width: 514px;
-    height: 514px;
-    background-position: 31.32295719844358% 72.19101123595506%;
-  }
-
-  .icon--Users-Icon {
-    width: 272.63px;
-    height: 197.69px;
-    background-position: 0 99.96985344886271%;
+    background-position: 0 98.0421052631579%;
   }
 
   .icon--Video-Icon {
     width: 39.84px;
     height: 26.31px;
-    background-position: 95.86195877935772% 61.515891605331376%;
-  }
-
-  .icon--email {
-    width: 514px;
-    height: 514px;
-    background-position: 100% 0;
-  }
-
-  .icon--facebook {
-    width: 266px;
-    height: 514px;
-    background-position: 80.56426332288402% 72.19101123595506%;
-  }
-
-  .icon--google {
-    width: 642px;
-    height: 514px;
-    background-position: 0 0;
+    background-position: 23.44586249485385% 0;
   }
 
   .icon--iPad-Icon {
     width: 37.16px;
     height: 37.13px;
-    background-position: 88.61207836049016% 69.63250818003651%;
-  }
-
-  .icon--logo {
-    width: 146px;
-    height: 55px;
-    background-position: 92.69340974212034% 63.02305721605465%;
-  }
-
-  .icon--mobile {
-    width: 322px;
-    height: 514px;
-    background-position: 0 72.19101123595506%;
-  }
-
-  .icon--pinterest {
-    width: 386px;
-    height: 514px;
-    background-position: 55.536332179930795% 0;
+    background-position: 39.533253205128204% 93.38279526769601%;
   }

@@ -34,8 +34,8 @@ gulp.task('copyGeneralFolder',['deleteDistFolder'], function() {
     .pipe(gulp.dest("./docs"));
 });
 
-gulp.task('optimizeImages',['deleteDistFolder'], function() {
-  return gulp.src('./app/assets/images/**/*')
+gulp.task('optimizeImages', ['deleteDistFolder'], function() {
+  return gulp.src(['./app/assets/images/**/*', '!./app/assets/images/icons', '!./app/assets/images/icons/**/*'])
     .pipe(imagemin({
       progressive: true,
       interlaced: true,
