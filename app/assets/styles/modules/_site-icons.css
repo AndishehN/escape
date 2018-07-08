@@ -4,11 +4,11 @@
   margin-right:5px;
 
   &__team {
-    width: 40px;
-    height: 40px;
+    width: 34px;
+    height: 34px;
     padding: 5px;
     border: 2px solid #fff;
-    border-radius: 20px;
+    border-radius: 17px;
     margin-right: 5px;
     transition: background-color .7s ease-out;
   }
