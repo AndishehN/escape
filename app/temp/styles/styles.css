@@ -1334,45 +1334,51 @@ img {
 Instead edit gulp/templates/sprite */
 
 .icon {
-      background-image: url('../../assets/images/sprites/sprite-7d9f7c2c.svg');
+      background-image: url('../../assets/images/sprites/sprite-50ade1b6.svg');
     }
 
 .no-svg .icon {
-      background-image: url('../../assets/images/sprites/sprite-7d9f7c2c.png');
+      background-image: url('../../assets/images/sprites/sprite-50ade1b6.png');
     }
 
 .icon--Browser-Icon {
     width: 39.53px;
     height: 34.84px;
-    background-position: 64.2454088437468% 0;
+    background-position: 0 99.42247454972592%;
   }
 
 .icon--Camera {
     width: 34.44px;
     height: 30.38px;
-    background-position: 99.60023400936038% 0;
+    background-position: 96.33148588017947% 71.8720690302007%;
   }
 
 .icon--Person-Icon {
     width: 22.78px;
     height: 46.57px;
-    background-position: 0 0;
+    background-position: 0 60.8205241623355%;
   }
 
 .icon--Star-Icon {
     width: 39.47px;
     height: 39.5px;
-    background-position: 0 98.0421052631579%;
+    background-position: 99.63829932437044% 0;
   }
 
 .icon--Video-Icon {
     width: 39.84px;
     height: 26.31px;
-    background-position: 23.44586249485385% 0;
+    background-position: 15.585659551176793% 49.688318727979045%;
   }
 
 .icon--iPad-Icon {
     width: 37.16px;
     height: 37.13px;
-    background-position: 39.533253205128204% 93.38279526769601%;
+    background-position: 98.09191077667293% 39.55141684189446%;
+  }
+
+.icon--logo {
+    width: 146px;
+    height: 55px;
+    background-position: 0 0;
   }
