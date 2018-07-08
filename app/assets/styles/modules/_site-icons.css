@@ -1,14 +1,14 @@
 .site-icons {
-  width: 20px;
-  height: 20px;
+  color: #fff;
+  font-size: 1.5rem;
   margin-right:5px;
 
   &__team {
-    width: 34px;
-    height: 34px;
+    width: 40px;
+    height: 40px;
     padding: 5px;
     border: 2px solid #fff;
-    border-radius: 17px;
+    border-radius: 20px;
     margin-right: 5px;
     transition: background-color .7s ease-out;
   }
